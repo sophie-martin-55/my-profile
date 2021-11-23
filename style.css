@@ -1,0 +1,103 @@
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: Calibri;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: Calibri;
+}
+h1 {
+	color: green;
+	font-size: 38px;
+}
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: green;
+}
+a: hover {
+	color: blue;
+}
+
+.container {
+	width:900px;
+	margin:60px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width:700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width:500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width:300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding:10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:50px 50px;
+	text-align: center;
+} 
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: green;
+	color: white;
+	padding:12px 12px;
+	border-radius: 8px;
+	margin-top: 20px;
+	;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: Opx;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: green;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction {
+	padding: 60px;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
